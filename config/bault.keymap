@@ -27,8 +27,8 @@
             bindings = <
                 &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &kp LEFT_BRACKET
                 &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp ENTER
-                &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA      &kp PERIOD      &kp SLASH
-                &kp LCTRL      &kp LGUI      &kp LALT      &kp SPACE      &kp BACKSPACE      &kp LALT      &kp LGUI      &kp LCTRL
+                &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp PERIOD &kp SLASH
+                &kp LCTRL      &kp LGUI      &kp LALT      &kp SPACE      &kp BACKSPACE      &mo 2      &trans     &mo 1
             >;
         };
 
@@ -46,8 +46,8 @@
         connectivity {
             bindings = <
                 &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader
-                &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans
-                &trans  &trans  &trans  &trans  &trans  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans
+                &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2   &trans  &trans        &trans        &trans        &trans        &trans
+                &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &out OUT_TOG  &trans
                 &kp N0   &trans  &trans  &trans  &trans        &trans        &trans &kp N0
             >;
         };
