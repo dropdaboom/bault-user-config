@@ -80,10 +80,19 @@
 
         layer_3 {
             bindings = <
-&trans     &trans        &trans   &trans  &trans  &trans  &trans    &kp UP          &trans     &trans  &trans
-&trans     &trans        &trans   &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
-&kp LCTRL  &kp LEFT_ALT  &kp DEL  &trans  &trans  &trans  &trans    &trans          &trans     &trans
-&trans     &trans        &trans   &trans          &trans            &trans          &trans     &trans
+&trans              &trans        &trans   &trans  &trans  &trans  &trans    &kp UP          &trans     &trans  &trans
+&trans              &trans        &trans   &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&kp LA(LC(DELETE))  &kp LEFT_ALT  &kp DEL  &trans  &trans  &trans  &trans    &trans          &trans     &trans
+&trans              &trans        &trans   &trans          &trans            &trans          &trans     &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans          &trans  &trans  &trans
             >;
         };
     };
