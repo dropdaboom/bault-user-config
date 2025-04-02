@@ -61,6 +61,11 @@
             bindings = <&kp APOS>;
             key-positions = <19 18>;
         };
+
+        layer3 {
+            bindings = <&mo 3>;
+            key-positions = <35 34>;
+        };
     };
 
     keymap {
@@ -90,6 +95,15 @@
 &trans      &trans       &trans       &trans           &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
 &kp K_UNDO  &kp K_CUT    &kp K_COPY   &kp K_PASTE      &trans  &trans  &trans          &trans        &trans     &trans
 &kp N0      &kp C_RESET  &bootloader  &kp LC(LA(DEL))          &trans                  &trans        &trans     &kp N0
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp F1    &kp F2  &kp F3     &kp F4      &kp F5       &kp F6     &kp F7         &kp F8    &kp F9                &kp F10
+&trans    &trans  &trans     &trans      &trans       &trans     &trans         &trans    &trans                &trans
+&trans    &trans  &trans     &trans                   &trans                    &trans    &trans                &trans
             >;
         };
     };
