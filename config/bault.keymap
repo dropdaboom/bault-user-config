@@ -94,8 +94,8 @@
         functions {
             bindings = <
 &trans      &trans       &trans       &trans           &trans  &trans  &trans          &kp UP_ARROW  &trans     &kp PRINTSCREEN  &kp PAGE_UP
-&trans      &trans       &trans       &trans           &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
-&kp K_UNDO  &kp K_CUT    &kp K_COPY   &kp K_PASTE      &trans  &trans  &trans          &trans        &trans     &trans
+&kp K_UNDO  &kp K_CUT    &kp K_COPY   &kp K_PASTE      &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
+&trans      &trans       &trans       &trans           &trans  &trans  &trans          &trans        &trans     &trans
 &kp N0      &kp C_RESET  &bootloader  &kp LC(LA(DEL))          &trans                  &trans        &trans     &kp N0
             >;
         };
