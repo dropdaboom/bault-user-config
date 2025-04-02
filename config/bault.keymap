@@ -20,6 +20,8 @@
             label = "TAPARROW";
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&mo 3>;
+
+            tapping-term-ms = <300>;
         };
     };
 
